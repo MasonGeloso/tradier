@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+        "resolveJsonModule": true,
+        "target": "ES2018",
+        "lib": ["es2020", "DOM"],
+        "module": "CommonJS",
+        "esModuleInterop": true,
+        "forceConsistentCasingInFileNames": true,
+        "strict": false,
+        "outDir": "dist",
+        "sourceMap": true,
+        "baseUrl": ".",
+        "paths": {
+            "@/*": ["src/*"],
+            "@/types/*": ["src/types/*"]
+        }
+    },
+    "exclude": ["tests"]
+}

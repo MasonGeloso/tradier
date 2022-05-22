@@ -1,0 +1,35 @@
+{
+  "name": "tradier",
+  "version": "1.0.0",
+  "description": "SDK for Tradier API",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc -p .",
+    "start": "tsc -p . && env-cmd node dist/src/index.js",
+    "test": "env-cmd jest --verbose --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MasonGeloso/tradier.git"
+  },
+  "keywords": [
+    "Tradier"
+  ],
+  "author": "Mason Geloso",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MasonGeloso/tradier/issues"
+  },
+  "homepage": "https://github.com/MasonGeloso/tradier#readme",
+  "dependencies": {
+    "@types/jest": "^27.5.1",
+    "axios": "^0.27.2",
+    "env-cmd": "^10.1.0",
+    "jest": "^28.1.0",
+    "ts-jest": "^28.0.2",
+    "typescript": "^4.6.4"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.35"
+  }
+}
